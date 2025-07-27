@@ -38,6 +38,9 @@
 <a href="https://react.dev/" target="_blank" rel="noopener">
   <img src="./assets/react.svg" style="height:30px; alt="react logo" />
 </a>
+<a href="https://tailwindcss.com/" target="_blank" rel="noopener">
+  <img src="./assets/tailwindcss.svg" style="height:30px; alt="tailwindcss logo" />
+</a>
 <img width="12" />
 <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener">
   <img src="./assets/css.svg" style="height:30px; alt="css3 logo" />
