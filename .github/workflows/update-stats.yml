@@ -1,0 +1,45 @@
+name: Update GitHub Stats SVG
+
+on:
+  # Run the job at the schedule you defined
+  schedule:
+    - cron: '*/10 * * * *'
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    # Permissions needed to commit to the gh-pages branch
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Download GitHub stats SVG
+        # This uses all of your custom parameters
+        run: |
+          curl -s -o output/stats.svg "https://github-readme-stats.vercel.app/api?username=shoury-rana&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false"
+
+      - name: Verify SVG content
+        run: |
+          # Check that the downloaded file is a valid SVG and doesn't contain an error
+          if ! grep -q "<svg" output/stats.svg || grep -q "Something went wrong" output/stats.svg; then
+            echo "Error: Downloaded file is not a valid SVG or contains an error."
+            # Exit gracefully without failing the workflow, keeping the old image
+            exit 0
+          fi
+
+      - name: Deploy to gh-pages branch
+        # This action pushes the content of 'output' folder to the 'gh-pages' branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
