@@ -18,7 +18,7 @@ jobs:
         # NOTE: You can customize the URL with more parameters
         # Example: &theme=radical&show_icons=true&rank_icon=github
         run: |
-          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=shoury-rana&show_icons=true&theme=radical"
+          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=shoury-rana&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false"
 
       - name: Verify SVG content
         run: |
