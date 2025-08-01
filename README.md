@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img src="https://shoury-rana.github.io/Shoury-Rana/stats.svg" style="height:150px; alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/shoury-rana/shoury-rana/output/stats.svg" style="height:150px; alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shoury-rana&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false" style="height:150px; alt="languages graph"  />
   <img src="https://nirzak-streak-stats.vercel.app/?user=shoury-rana&theme=dracula&hide_border=false" style="height:150px; alt="streak"  />
 </div>
