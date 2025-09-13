@@ -26,7 +26,7 @@ jobs:
       - name: Download GitHub stats SVG
         run: |
           mkdir -p output
-          curl -s -o output/stats.svg "https://github-readme-stats.vercel.app/api?username=shoury-rana&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false"
+          curl -s -o output/stats.svg "https://github-readme-stats.vercel.app/api?username=shoury-rana&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en"
 
       - name: Verify SVG content
         run: |
