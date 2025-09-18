@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats-git-master-shoury-ranas-projects.vercel.app/api?include_all_commits=true&disable_animations=false&username=shoury-rana&locale=en&hide_title=true&count_private=true&hide_rank=false&theme=dracula&show_icons=true" style="height:150px; alt="stats graph"  />
+  <img src="https://github-readme-stats-dun-psi-49.vercel.app/api?username=shoury-rana&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en" style="height:150px; alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shoury-rana&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false" style="height:150px; alt="languages graph"  />
   <img src="https://nirzak-streak-stats.vercel.app/?user=shoury-rana&theme=dracula&hide_border=false" style="height:150px; alt="streak"  />
 </div>
