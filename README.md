@@ -119,6 +119,9 @@
   <a href="https://www.linkedin.com/in/shoury-rana/" target="_blank">
     <img src="./assets/shield_linkedin.svg" height="35" alt="linkedin logo"  />
   </a>
+  <a href="https://shoury-rana.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
 </div>
 
 ###
