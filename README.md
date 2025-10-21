@@ -1,4 +1,5 @@
-<h2 align="left">Hey there 👋, I’m a B.Tech CSE student from New Delhi, India — someone who’s been fascinated by tech since middle school. My journey started with HTML and Unity, then evolved through Java, Python, and eventually Django, where I discovered my love for backend development. Over the past few semesters, I’ve contributed to open-source projects (SSoC, GSSoC), participated in multiple hackathons, and landed a remote backend internship working on real client projects using Django and DRF.<br>If you’re into backend dev, open source, or just want to talk tech — let’s connect! 🚀</h2>
+<h2 align="left">Hey there 👋, I’m a B.Tech CSE student from New Delhi, India.</h2>
+<h4>I am someone who’s been fascinated by tech since middle school. My journey started with HTML and Unity, then evolved through Java, Python, and eventually Django, where I discovered my love for backend development. Over the past few semesters, I’ve contributed to open-source projects (SSoC, GSSoC), participated in multiple hackathons, and landed a remote backend internship working on real client projects using Django and DRF.<br>If you’re into backend dev, open source, or just want to talk tech — let’s connect! 🚀</h4>
 
 ###
 
