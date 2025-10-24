@@ -53,6 +53,15 @@
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener">
   <img src="./assets/c.svg" style="height:30px; alt="c logo" />
 </a>
+  
+<img width="12" />
+<a href="https://firebase.google.com/" target="_blank" rel="noopener">
+  <img src="./assets/firebase.svg" style="height:30px; alt="firebase logo" />
+</a>
+<img width="12" />
+<a href="https://supabase.com/" target="_blank" rel="noopener">
+  <img src="./assets/supabase.svg" style="height:30px; alt="firebase logo" />
+</a>
 <img width="12" />
 <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener">
   <img src="./assets/pycharm.svg" style="height:30px; alt="pycharm logo" />
