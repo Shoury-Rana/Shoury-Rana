@@ -3,12 +3,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats-dun-psi-49.vercel.app/api?username=shoury-rana&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&show=prs_merged_percentage" style="height:150px; alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=shoury-rana&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=dracula&hide_border=false" style="height:150px; alt="languages graph"  />
-</div>
-
-###
 
 <div align="left">
 <a href="https://www.python.org/" target="_blank" rel="noopener">
