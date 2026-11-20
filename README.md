@@ -5,6 +5,10 @@
 
 
 <div align="left">
+<a href="https://go.dev/" target="_blank" rel="noopener">
+  <img src="./assets/go.svg" style="height:30px; alt="python logo" />
+</a>
+<img width="12" />
 <a href="https://www.python.org/" target="_blank" rel="noopener">
   <img src="./assets/python.svg" style="height:30px; alt="python logo" />
 </a>
@@ -47,7 +51,6 @@
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener">
   <img src="./assets/c.svg" style="height:30px; alt="c logo" />
 </a>
-  
 <img width="12" />
 <a href="https://firebase.google.com/" target="_blank" rel="noopener">
   <img src="./assets/firebase.svg" style="height:30px; alt="firebase logo" />
